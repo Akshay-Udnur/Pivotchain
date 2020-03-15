@@ -7,6 +7,7 @@
 - Install requirements using requirements.txt `pip install -r requirements.txt`
 - To start server run app.py file `python app.py`
 
+First time app.py file downloads weight file. Due to that app.py takes 3-5 min to run at first time.
 To get segmentation run following command. It will give rois, masks, class_ids, class_names, scores for all segmented objects. And also create augmented image in output folder.
 
 ```
