@@ -29,6 +29,12 @@ COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
 if not os.path.exists(COCO_MODEL_PATH):
     utils.download_trained_weights(COCO_MODEL_PATH)
 
+if not os.path.exists('output'):
+    os.mkdir('output')
+
+if not os.path.exists('uploadfiles'):    
+    os.mkdir('uploadfiles')
+    
 # Directory of images to run detection on
 IMAGE_DIR = os.path.join(ROOT_DIR, "images")
 
