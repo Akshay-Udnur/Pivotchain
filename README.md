@@ -9,7 +9,7 @@
 
 -- First time app.py file downloads weight file. Due to that app.py takes 3-5 min to run at first time.
 
--- To get segmentation run following command. It will give rois, masks, class_ids, class_names, scores for all segmented objects. And also create augmented image in output folder.
+-- To get segmentation run following command. It will give rois, masks, class_ids, class_names, scores for all segmented objects. And also create Segmented images in output folder.
 
 ```
 import requests
