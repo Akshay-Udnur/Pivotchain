@@ -1,11 +1,11 @@
 ## Pivotchain Coding Challenge (Image-Segmentation)
 ### How to use !
-- clone github `https://github.com/Akshay-Udnur/Pivotchain.git`
-- change dir to Pivotchain `cd Pivotchain`
-- create virtual environment `virtualenv --python=python3.6 venv`
-- activate virtual environment `source venv/bin/activate`
-- install requirements using requirements.txt `pip install -r requirements.txt`
-- to start server run app.py file `python app.py`
+- Clone github `https://github.com/Akshay-Udnur/Pivotchain.git`
+- Change dir to Pivotchain `cd Pivotchain`
+- Create virtual environment `virtualenv --python=python3.6 venv`
+- Activate virtual environment `source venv/bin/activate`
+- Install requirements using requirements.txt `pip install -r requirements.txt`
+- To start server run app.py file `python app.py`
 
 To get segmentation run following command. It will give rois, masks, class_ids, class_names, scores for all segmented objects. And also create augmented image in output folder.
 
