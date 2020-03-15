@@ -1,5 +1,5 @@
-### Pivotchain Coding Challenge (Image-Segmentation)
-##### How to use !
+## Pivotchain Coding Challenge (Image-Segmentation)
+#### How to use !
 clone github ```https://github.com/Akshay-Udnur/Pivotchain.git```
 change dir to Pivotchain ```cd Pivotchain```
 create virtual environment ```virtualenv --python=python3.6 venv```
