@@ -4,7 +4,7 @@
 - Change dir to Pivotchain `cd Pivotchain`
 - Create virtual environment `virtualenv --python=python3.6 venv`
 - Activate virtual environment `source venv/bin/activate`
-- Install requirements using requirements.txt `pip install -r requirements.txt`
+- Install requirements using requirements.txt  `pip install -r requirements.txt`
 - To start server run app.py file `python app.py`
 
 First time app.py file downloads weight file. Due to that app.py takes 3-5 min to run at first time.
